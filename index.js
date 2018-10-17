@@ -40,5 +40,5 @@ function currentLine(katzDeliLine) {
     currently.push(i+1 + ". "+ katzDeliLine[i])
   }
   console.log(currently)
-  return "The line is currently: " + currently
+  return "The line is currently: " + currently + ""
 }
