@@ -37,9 +37,8 @@ function currentLine(katzDeliLine) {
   var currently = []
 
   for (var i = 0; i < katzDeliLine.length; i++) {
-    current = currently.push(i+1 + ". "+ katzDeliLine[i])
-    current + " "
+    let current = currently.push(i+1 + ". "+ katzDeliLine[i])
   }
   console.log(currently)
-  return "The line is currently: " + current
+  return "The line is currently: " + currently
 }
