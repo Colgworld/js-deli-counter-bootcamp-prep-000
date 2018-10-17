@@ -7,6 +7,6 @@ var katzDeliLine = [];
  // These are normal people. If they are 7th in line, tell them that. Don't get their hopes up by telling them they are number 6 in line.
 
 function takeANumber(katzDeliLine, name) {
-  katzDeliLine.push()
+  katzDeliLine.push(name)
   return "Welcome, " + name + ". You are number " + katzDeliLine.length + " in line."
 }
