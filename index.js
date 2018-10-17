@@ -24,3 +24,7 @@ function nowServing(katzDeliLine) {
   }
   return 'Currently serving ' + upNext + '.'
 }
+
+function currentLine(katzDeliLine) {
+  
+}
