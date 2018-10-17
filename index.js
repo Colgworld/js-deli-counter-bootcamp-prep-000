@@ -7,5 +7,6 @@ var katzDeliLine = [];
  // These are normal people. If they are 7th in line, tell them that. Don't get their hopes up by telling them they are number 6 in line.
 
 function takeANumber(line, name) {
+  let name = ['Ada', 'Grace', 'Kent']
   return "Welcome, " + name + "you are number " + line + " in line."
 }
