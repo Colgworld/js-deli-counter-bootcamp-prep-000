@@ -6,7 +6,7 @@ var katzDeliLine = [];
  // such as `"Welcome, Ada. You are number 1 in line."`. And don't go being too programmer-y and give them their index.
  // These are normal people. If they are 7th in line, tell them that. Don't get their hopes up by telling them they are number 6 in line.
 var name = ['Ada', 'Grace', 'Kent']
-
+var line = 2
 function takeANumber(line, name) {
   return "Welcome, " + name + ". You are number " + line + " in line."
 }
